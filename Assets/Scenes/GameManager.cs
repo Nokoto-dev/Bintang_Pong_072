@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     private void CheckWinner()
     {
-        // Ketentuan dosen: Menang jika mencapai skor 11
+        // Menang jika mencapai skor 11
         if (scorePlayer >= 11 || scoreAI >= 11)
         {
             Debug.Log("Permainan Berakhir!");
